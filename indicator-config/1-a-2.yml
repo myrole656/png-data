@@ -28,7 +28,7 @@ permalink: ''
 precision: []
 reporting_status: notstarted
 sort: ''
-standalone: false
+standalone: true
 tags: []
 graph_target_lines:
   - series: "Proportion of total government spending on essential services, education [UIS methodology]"

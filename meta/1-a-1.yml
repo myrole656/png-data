@@ -1,0 +1,7 @@
+indicator_name: ODA to poverty reduction
+indicator_number: 1.a.1
+computation_units: Unit
+source_active_1: true
+source_organisation_1: SDG Global (OECD)
+source_url_1: https://unstats.un.org/sdgs/dataportal/database
+reporting_status: complete

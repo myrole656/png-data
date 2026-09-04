@@ -1,0 +1,7 @@
+indicator_name: Access to basic water and sanitation services
+indicator_number: 1.4.1
+computation_units: Unit
+source_active_1: true
+source_organisation_1: SDG Global (UN-Habitat)
+source_url_1: https://unstats.un.org/sdgs/dataportal/database
+reporting_status: complete

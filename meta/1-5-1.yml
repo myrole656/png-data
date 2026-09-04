@@ -1,7 +1,0 @@
-indicator_name: Deaths/missing/affected from disasters
-indicator_number: 1.5.1
-computation_units: Unit
-source_active_1: true
-source_organisation_1: SDG Global (UNDRR)
-source_url_1: https://unstats.un.org/sdgs/dataportal/database
-reporting_status: complete

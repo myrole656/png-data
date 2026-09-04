@@ -12,27 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Level of national compliance with labour rights",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Score from 0 (better) to 10 (worse) compliance with labour rights",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

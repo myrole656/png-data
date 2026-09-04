@@ -14,8 +14,7 @@ Value,Disaggregation combinations using this value,Number of indicators
 % agricultual male population,1,1
 % agricultual population,1,1
 "Balance of Payments, current United States dollars",1,1
-% change per annum,2,2
-% change per capita per annum,1,1
+% change per annum,1,1
 "Deaths per 1 000 live births, boys",2,1
 "Deaths per 1 000 live births, girls",2,1
 Deaths per 100 000 live births,1,1
@@ -27,7 +26,7 @@ Female-to-male ratio,1,1
 Female,1,1
 In local currency unit per United States dollar,1,1
 Index,10,8
-Kg per 1 USD (2015) GDP,2,2
+Kg per 1 USD (2015) GDP,1,1
 Kg per capita,1,1
 "Litres per annum, female population aged 15+",1,1
 "Litres per annum, male population aged 15+",1,1
@@ -39,7 +38,7 @@ Megajoules per unit of GDP in 2017 PPP,1,1
 Micrograms per m3,1,1
 Million 2019 US dollars,1,1
 Million 2021 US dollars,1,1
-Million 2022 US dollars,9,9
+Million 2022 US dollars,8,8
 Million passenger-km,1,1
 Million TEU,1,1
 Million ton-km,1,1
@@ -59,42 +58,29 @@ Number,4,4
 % of children/household,1,1
 % of employed population,1,1
 "% of exports of goods, services and primary income",1,1
-% of female aged 15-24,2,2
+% of female aged 15-24,1,1
 % of female aged 15-49,6,3
 % of female aged 15-64,1,1
 % of female aged 15 and above,2,2
 % of female aged 18-29,1,1
 % of female aged 25-54,1,1
-% of female labour force aged 15-24,1,1
-% of female labour force aged 15+,1,1
-% of female labour force aged 25+,1,1
-% of female labour force without disability,1,1
 % of female population with severe disabilities,1,1
 % of female population,1,1
 % of forest area,1,1
 % of GDP (2015 USD),1,1
 % of GDP,6,6
 % of GNI,1,1
-% of labour force aged 15-24,1,1
-% of labour force aged 15+,1,1
-% of labour force aged 25+,1,1
-% of labour force with disability,1,1
-% of labour force without disability,1,1
 % of land area,1,1
 % of live births,1,1
-% of male aged 15-24,2,2
+% of male aged 15-24,1,1
 % of male aged 15-64,1,1
 % of male aged 15 and above,1,1
 % of male aged 25-54,1,1
-% of male labour force aged 15-24,1,1
-% of male labour force aged 15+,1,1
-% of male labour force aged 25+,1,1
-% of male labour force without disability,1,1
 % of male population with severe disabilities,1,1
 % of male population,1,1
 % of non-pregnant women aged 15-49,1,1
 % of population above statutory pensionable age,1,1
-% of population aged 15-24,2,2
+% of population aged 15-24,1,1
 % of population aged 15-64,1,1
 % of population aged 15 and above,1,1
 % of population aged 25-54,1,1
@@ -138,10 +124,9 @@ Ratio,1,1
 "% relevant age group, male population",1,1
 "% relevant age group, total population",1,1
 Rural,3,2
-Score from 0 (better) to 10 (worse) compliance with labour rights,1,1
 Scores,2,1
 Thousand people,1,1
-Tons per capita,4,4
+Tons per capita,2,2
 Tons per hectare,1,1
 Total,1,1
 Urban,3,2

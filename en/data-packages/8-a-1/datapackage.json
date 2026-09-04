@@ -12,30 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Aid for trade, total official flows (commitments), by recipient",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Million 2022 US dollars",
-                ""
-              ]
-            },
-            "title": "Unit"
           },
           {
             "name": "Value",

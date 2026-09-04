@@ -12,32 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Год"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Domestic material consumption intensity",
-                "Domestic material consumption, total",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Kg per 1 USD (2015) GDP",
-                "Tons per capita",
-                ""
-              ]
-            },
-            "title": "Unit"
           },
           {
             "name": "Value",

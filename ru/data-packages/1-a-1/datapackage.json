@@ -12,30 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Год"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Official development assistance grants for poverty reduction, by recipient countries",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "% of GNI",
-                ""
-              ]
-            },
-            "title": "Unit"
           },
           {
             "name": "Value",

@@ -12,27 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Index",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

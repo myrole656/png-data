@@ -28,7 +28,7 @@ permalink: ''
 precision: []
 reporting_status: notstarted
 sort: ''
-standalone: false
+standalone: true
 tags: []
 graph_target_lines:
   - series: "GDP per capita growth rate (2015 US dollars, average annual)"

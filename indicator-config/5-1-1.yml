@@ -28,7 +28,7 @@ permalink: ''
 precision: []
 reporting_status: notstarted
 sort: ''
-standalone: false
+standalone: true
 tags: []
 graph_target_lines:
   - series: "Legal framework for gender equality (percentage, scale 1 - 100)_Area 1 (legal framework and public life)"

@@ -12,30 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Population using basic drinking water services",
-                "Population using basic sanitation services",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "% of population",
-                "% of rural population",
-                "% of urban population",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

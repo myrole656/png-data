@@ -910,49 +910,6 @@
       "title": "Coverage of essential health services"
     },
     {
-      "path": "1-5-1/data.csv",
-      "name": "1-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Deaths and missing persons attributed to disasters",
-                "Directly affected persons attributed to disasters",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Per 100,000 population",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
-    },
-    {
       "path": "15-4-2/data.csv",
       "name": "15-4-2",
       "profile": "tabular-data-resource",
@@ -1249,48 +1206,6 @@
         ]
       },
       "title": "Proportion of individuals using the Internet"
-    },
-    {
-      "path": "1-a-1/data.csv",
-      "name": "1-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Official development assistance grants for poverty reduction, by recipient countries",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "% of GNI",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Total official development assistance grants that focus on poverty reduction as a share of the recipient country’s gross national income"
     },
     {
       "path": "2-4-1/data.csv",
@@ -2144,39 +2059,6 @@
       "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)"
     },
     {
-      "path": "1-1-1/data.csv",
-      "name": "1-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "A",
-                "B",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
-    },
-    {
       "path": "13-1-2/data.csv",
       "name": "13-1-2",
       "profile": "tabular-data-resource",
@@ -2605,70 +2487,6 @@
       "title": "Tuberculosis incidence per 100,000 population"
     },
     {
-      "path": "1-3-1/data.csv",
-      "name": "1-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Employed population covered in the event of work injury",
-                "Poor population receiving social assistance cash benefit",
-                "Population covered by at least one social protection benefit",
-                "Population covered by social assistance programs, poorest quintile (1st)",
-                "Population receiving disability cash benefits",
-                "Proportion of children/households receiving child/family cash benefit",
-                "Proportion of population receiving a pension",
-                "Unemployment benefit coverage",
-                "Vulnerable population receiving social assistance cash benefit",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "% of employed population",
-                "% of population",
-                "% of female population with severe disabilities",
-                "% of male population with severe disabilities",
-                "% of population with severe disabilities",
-                "% of children/household",
-                "% of children/household, female",
-                "% of children/household, male",
-                "% of population above statutory pensionable age",
-                "% of unemployed population",
-                "% of unemployed population, female",
-                "% of unemployed population, male",
-                "% of vulnerable female population",
-                "% of vulnerable male population",
-                "% of vulnerable population",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable"
-    },
-    {
       "path": "5-3-1/data.csv",
       "name": "5-3-1",
       "profile": "tabular-data-resource",
@@ -2717,48 +2535,6 @@
         ]
       },
       "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18"
-    },
-    {
-      "path": "1-a-2/data.csv",
-      "name": "1-a-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of total government spending on essential services, education [UIS methodology]",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of total government spending on essential services (education, health and social protection)"
     },
     {
       "path": "3-3-5/data.csv",
@@ -3665,51 +3441,6 @@
       "title": "Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries"
     },
     {
-      "path": "1-4-1/data.csv",
-      "name": "1-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Population using basic drinking water services",
-                "Population using basic sanitation services",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "% of population",
-                "% of rural population",
-                "% of urban population",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of population living in households with access to basic services"
-    },
-    {
       "path": "9-3-2/data.csv",
       "name": "9-3-2",
       "profile": "tabular-data-resource",
@@ -4167,48 +3898,6 @@
         ]
       },
       "title": "Energy intensity measured in terms of primary energy and GDP"
-    },
-    {
-      "path": "1-5-4/data.csv",
-      "name": "1-5-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national DRR strategies",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
     },
     {
       "path": "5-c-1/data.csv",
@@ -5046,48 +4735,6 @@
         ]
       },
       "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
-    },
-    {
-      "path": "1-5-2/data.csv",
-      "name": "1-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Direct economic loss attributed to disasters",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Million US dollars",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)"
     },
     {
       "path": "3-c-1/data.csv",
@@ -6441,48 +6088,6 @@
       "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation"
     },
     {
-      "path": "1-5-3/data.csv",
-      "name": "1-5-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Index",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030"
-    },
-    {
       "path": "9-b-1/data.csv",
       "name": "9-b-1",
       "profile": "tabular-data-resource",
@@ -6545,6 +6150,28 @@
         ]
       },
       "title": "Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities"
+    },
+    {
+      "path": "1-4-1/data.csv",
+      "name": "1-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of population living in households with access to basic services"
     },
     {
       "path": "14-6-1/data.csv",
@@ -6811,6 +6438,28 @@
       "title": "Proportion of the rural population who live within 2 km of an all-season road"
     },
     {
+      "path": "1-1-1/data.csv",
+      "name": "1-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
+    },
+    {
       "path": "6-4-1/data.csv",
       "name": "6-4-1",
       "profile": "tabular-data-resource",
@@ -6853,6 +6502,28 @@
         ]
       },
       "title": "Total value of inward and outward illicit financial flows (in current United States dollars)"
+    },
+    {
+      "path": "1-5-2/data.csv",
+      "name": "1-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)"
     },
     {
       "path": "2-1-2/data.csv",
@@ -7073,6 +6744,50 @@
         ]
       },
       "title": "CO2 emission per unit of value added"
+    },
+    {
+      "path": "1-5-4/data.csv",
+      "name": "1-5-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
+    },
+    {
+      "path": "1-3-1/data.csv",
+      "name": "1-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable"
     },
     {
       "path": "14-c-1/data.csv",
@@ -7977,6 +7692,28 @@
       "title": "Proportion of girls and women aged 15–49 years who have undergone female genital mutilation/cutting, by age"
     },
     {
+      "path": "1-a-2/data.csv",
+      "name": "1-a-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of total government spending on essential services (education, health and social protection)"
+    },
+    {
       "path": "6-1-1/data.csv",
       "name": "6-1-1",
       "profile": "tabular-data-resource",
@@ -8063,6 +7800,28 @@
         ]
       },
       "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location"
+    },
+    {
+      "path": "1-5-1/data.csv",
+      "name": "1-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
     },
     {
       "path": "17-7-1/data.csv",
@@ -8439,6 +8198,28 @@
       "title": "Proportion of individuals who own a mobile telephone, by sex"
     },
     {
+      "path": "1-a-1/data.csv",
+      "name": "1-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Total official development assistance grants that focus on poverty reduction as a share of the recipient country’s gross national income"
+    },
+    {
       "path": "5-a-2/data.csv",
       "name": "5-a-2",
       "profile": "tabular-data-resource",
@@ -8613,6 +8394,28 @@
         ]
       },
       "title": "Financial Soundness Indicators"
+    },
+    {
+      "path": "1-5-3/data.csv",
+      "name": "1-5-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030"
     },
     {
       "path": "5-6-2/data.csv",

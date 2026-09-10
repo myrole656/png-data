@@ -12,27 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Direct economic loss attributed to disasters",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Million US dollars",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

@@ -12,28 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Deaths and missing persons attributed to disasters",
-                "Directly affected persons attributed to disasters",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Per 100,000 population",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

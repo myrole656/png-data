@@ -12,29 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Completion rate, primary education",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "% relevant age group, female population",
-                "% relevant age group, male population",
-                "% relevant age group, total population",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

@@ -12,29 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Adjusted net enrolment rate (one year before the official primary entry age), female",
-                "Adjusted net enrolment rate (one year before the official primary entry age), male",
-                "Adjusted net enrolment rate (one year before the official primary entry age), total",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

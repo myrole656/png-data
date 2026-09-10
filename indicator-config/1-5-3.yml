@@ -28,7 +28,7 @@ permalink: ''
 precision: []
 reporting_status: notstarted
 sort: ''
-standalone: true
+standalone: false
 tags: []
 graph_target_lines:
   - series: "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework"

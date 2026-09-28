@@ -28,7 +28,7 @@ permalink: ''
 precision: []
 reporting_status: notstarted
 sort: ''
-standalone: false
+standalone: true
 tags: []
 graph_target_lines:
   - series: "Official development assistance to medical research and basic heath sectors, total gross disbursement, by recipient"

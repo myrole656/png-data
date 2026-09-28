@@ -1,11 +1,9 @@
 Value,Disaggregation combinations using this value,Number of indicators
 "0 = No status; 1 = Status B, partially compliant; 2 = Status A, fully compliant",1,1
 1 = Requires further progress; 2 = Partially meets; 3 = Meets; 4 = Fully meets,1,1
-10 = Clearly defined; 5 = Not clearly defined; 0 = N/A,2,1
 1st wealth quintile (poorest),2,2
 2015 US dollars per capita,1,1
 2nd wealth quintile,2,2
-3 = High; 2 = Moderate; 1 = Low; 0 = N/A,2,1
 3rd wealth quintile,2,2
 4th wealth quintile,2,2
 5th wealth quintile (richest),2,2
@@ -31,7 +29,7 @@ Megajoules per unit of GDP in 2017 PPP,1,1
 Micrograms per m3,1,1
 Million 2019 US dollars,1,1
 Million 2021 US dollars,1,1
-Million 2022 US dollars,7,7
+Million 2022 US dollars,6,6
 Million passenger-km,1,1
 Million TEU,1,1
 Million ton-km,1,1
@@ -74,14 +72,13 @@ Number,3,3
 % of male population,1,1
 % of population aged 15-24,1,1
 % of population aged 15 and above,1,1
-% of population,8,6
+% of population,6,5
 % of prison population,1,1
-% of rural population,4,3
+% of rural population,2,2
 % of total employment,1,1
 % of total final energy consumption,1,1
 % of total manufacturing value added,1,1
-% of total renewable water per annum,1,1
-% of urban population,6,4
+% of urban population,3,3
 % of women of reproductive age,1,1
 % of world merchandise exports,1,1
 % of world services exports,1,1
@@ -93,7 +90,7 @@ Per 100 population,1,1
 "Per 100,000 population, women",3,3
 "Per 100,000 population",26,9
 Per million inhabitants,1,1
-Percentage,40,24
+Percentage,35,21
 "Probability, men (%)",1,1
 "Probability, women (%)",1,1
 Probability (%),1,1

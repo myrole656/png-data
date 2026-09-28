@@ -28,7 +28,7 @@ permalink: ''
 precision: []
 reporting_status: notstarted
 sort: ''
-standalone: false
+standalone: true
 tags: []
 graph_target_lines:
   - series: "Proportion of the target population who received 3 doses of diphtheria-tetanus-pertussis (DTP3) vaccine"

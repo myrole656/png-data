@@ -28,7 +28,7 @@ permalink: ''
 precision: []
 reporting_status: notstarted
 sort: ''
-standalone: false
+standalone: true
 tags: []
 graph_target_lines:
   - series: "Countries with procedures in law or policy for participation by service users/communities in planinng program: rural drinking-water supply"

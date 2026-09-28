@@ -12,33 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Año"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Dentistry personel density",
-                "Nursing and midwifery personnel density",
-                "Pharmaceutical personnel density",
-                "Physicians density",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Per 10,000 population",
-                ""
-              ]
-            },
-            "title": "Unit"
           },
           {
             "name": "Value",

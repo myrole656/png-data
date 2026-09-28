@@ -12,34 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Год"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Age-standardized mortality rate attributed to ambient air pollution",
-                "Age-standardized mortality rate attributed to household air pollution",
-                "Age-standardized mortality rate attributed to household and ambient air pollution",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Per 100,000 population",
-                "Per 100,000 population, men",
-                "Per 100,000 population, women",
-                ""
-              ]
-            },
-            "title": "Unit"
           },
           {
             "name": "Value",

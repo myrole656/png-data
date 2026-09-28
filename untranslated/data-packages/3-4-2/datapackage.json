@@ -12,29 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Suicide, both sexes",
-                "Suicide, female",
-                "Suicide, male",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Per 100,000 population",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

@@ -12,29 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alcohol use disorders, 12-month prevalence",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "% of female population",
-                "% of male population",
-                "% of population",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

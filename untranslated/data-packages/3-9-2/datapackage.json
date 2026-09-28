@@ -12,30 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Mortality rate attributed to unsafe WASH service",
-                "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene from diarrhoea, intestinal nematode infections, malnutrition and acute respiratory infections",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Per 100,000 population",
-                "Per 100,000 population, men",
-                "Per 100,000 population, women",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

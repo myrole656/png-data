@@ -12,32 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Год"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alcohol per capita consumption",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Litres per annum, female population aged 15+",
-                "Litres per annum, male population aged 15+",
-                "Litres per annum, population aged 15+",
-                ""
-              ]
-            },
-            "title": "Unit"
           },
           {
             "name": "Value",

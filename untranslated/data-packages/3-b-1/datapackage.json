@@ -12,33 +12,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of the target population who received 3 doses of diphtheria-tetanus-pertussis (DTP3) vaccine",
-                "Proportion of the target population who received a 3rd dose of pneumococcal conjugate (PCV3) vaccine",
-                "Proportion of the target population who received measles-containing-vaccine second-dose (MCV2)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "% of children aged 1",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

@@ -12,43 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "New HIV infections, aged 0-14",
-                "New HIV infections, aged 15-24",
-                "New HIV infections, aged 15-24, men",
-                "New HIV infections, aged 15-24, women",
-                "New HIV infections, aged 15-49",
-                "New HIV infections, aged 15-49, men",
-                "New HIV infections, aged 15-49, women",
-                "New HIV infections, aged 50+",
-                "New HIV infections, aged 50+, men",
-                "New HIV infections, aged 50+, women",
-                "New HIV infections, all ages",
-                "New HIV infections, all ages, men",
-                "New HIV infections, all ages, women",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Per 100,000 population",
-                "Per 1,000 population",
-                ""
-              ]
-            },
-            "title": "Unit"
           },
           {
             "name": "Value",

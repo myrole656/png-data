@@ -16,10 +16,8 @@ Index,6,4
 Kg per 1 USD (2015) GDP,2,2
 Kg per capita,1,1
 Male,1,1
-Megajoules per unit of GDP in 2017 PPP,1,1
 Micrograms per m3,1,1
 Million 2019 US dollars,1,1
-Million 2021 US dollars,1,1
 Million 2022 US dollars,5,5
 Million passenger-km,1,1
 Million TEU,1,1
@@ -56,13 +54,11 @@ Number,3,3
 % of male labour force aged 25+,1,1
 % of male labour force without disability,1,1
 % of population aged 15-24,1,1
-% of population,5,4
+% of population,3,2
 % of prison population,1,1
-% of rural population,2,2
 % of total employment,1,1
-% of total final energy consumption,1,1
 % of total manufacturing value added,1,1
-% of urban population,3,3
+% of urban population,1,1
 % of world merchandise exports,1,1
 % of world services exports,1,1
 Per 100 population,1,1
@@ -78,5 +74,5 @@ Tons per capita,4,4
 Tons per hectare,1,1
 Total,1,1
 Urban,1,1
-Watts per capita,2,2
+Watts per capita,1,1
 Yes (1)/No (0),16,7

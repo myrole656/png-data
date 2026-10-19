@@ -2,9 +2,11 @@ Value,Disaggregation combinations using this value,Number of indicators
 "0 = No status; 1 = Status B, partially compliant; 2 = Status A, fully compliant",1,1
 "1: Approaches requirement, 0: Does not meet requirement; 2: Fully meets requirement",2,1
 1 = Requires further progress; 2 = Partially meets; 3 = Meets; 4 = Fully meets,1,1
+10 = Clearly defined; 5 = Not clearly defined; 0 = N/A,2,1
 1st wealth quintile (poorest),3,2
 2015 US dollars per capita,1,1
 2nd wealth quintile,3,2
+3 = High; 2 = Moderate; 1 = Low; 0 = N/A,2,1
 3rd wealth quintile,3,2
 4th wealth quintile,3,2
 5th wealth quintile (richest),3,2
@@ -22,7 +24,7 @@ Kg per capita,1,1
 Male,1,1
 Micrograms per m3,1,1
 Million 2019 US dollars,1,1
-Million 2022 US dollars,5,5
+Million 2022 US dollars,6,6
 Million passenger-km,1,1
 Million TEU,1,1
 Million ton-km,1,1
@@ -60,18 +62,20 @@ Number,3,3
 % of male labour force aged 25+,1,1
 % of male labour force without disability,1,1
 % of population aged 15-24,1,1
-% of population,3,2
+% of population,5,3
 % of prison population,1,1
+% of rural population,2,1
 % of seats,1,1
 % of total employment,1,1
 % of total manufacturing value added,1,1
-% of urban population,1,1
+% of total renewable water per annum,1,1
+% of urban population,4,2
 % of world merchandise exports,1,1
 % of world services exports,1,1
 Per 100 population,1,1
 "Per 100,000 population",4,2
 Per million inhabitants,1,1
-Percentage,43,24
+Percentage,48,27
 Ratio (age group’s share in parliament over share in total population),1,1
 Ratio (women's share in parliament over share in total population),1,1
 Ratio,1,1

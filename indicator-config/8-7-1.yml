@@ -28,5 +28,5 @@ permalink: ''
 precision: []
 reporting_status: notstarted
 sort: ''
-standalone: false
+standalone: true
 tags: []
